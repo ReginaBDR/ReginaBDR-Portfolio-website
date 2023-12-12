@@ -1,0 +1,96 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Inter var', sans-serif;
+  font-size: 16px;
+  color: #101015;
+  overflow-x: hidden;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: grid;
+}
+
+.main .main-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.main .main-title h1 {
+  text-transform: uppercase;
+  font-size: 4.5em;
+  font-weight: 300;
+  line-height: 0.9em;
+}
+
+.main .main-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main .main-about h2 {
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.main .main-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 10px;
+}
+
+.main .main-contact h3 {
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.main .main-contact a {
+  text-decoration-line: none;
+  font-weight: 700;
+  color: #222268;
+}
+
+.second-section {
+    height: 100vh;
+    width: 100%;
+    pointer-events: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(217, 167, 199, 0.7), rgba(255, 252, 219, 0.5));
+  }
+
+  .second-section .second-section-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.6rem;
+  }
