@@ -1,9 +1,8 @@
-"use client"
+"use client";
 import Link from "next/link";
 import "./main.css";
 import { Scene } from "./components/first-section/scene";
 import { SecondSection } from "./components/second-section/second-section";
-
 
 export default function Home() {
   return (
@@ -16,17 +15,13 @@ export default function Home() {
           </h1>
         </div>
         <div className="main-about">
-          <h2>
-            I am a Full Stack Software Developer
-            <br />
-            with experience building
-            <br />
-            nice things.
-          </h2>
+          <h2>{`I'm a Full Stack Software Developer who has had the privilege of contributing to various projects, 
+          always focused on creating positive user experiences. I'm passionate about building thoughtful 
+          solutions that make a difference.`}</h2>
         </div>
         <div className="main-contact">
           <h3>
-            You can contact me on{" "}
+            Feel free to reach out on{" "}
             <Link href="https://uy.linkedin.com/in/regina-borgno-dalla-rizza">
               LinkedIn
             </Link>
@@ -34,7 +29,9 @@ export default function Home() {
         </div>
       </header>
       <section className="second-section">
-        <h2 className="second-section-title">I have been working with:</h2>
+        <h2 className="second-section-title">
+          I have experience working with:
+        </h2>
         <SecondSection />
       </section>
     </>
